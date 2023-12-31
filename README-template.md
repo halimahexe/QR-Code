@@ -87,3 +87,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 - Github - [halimahexe](https://www.github.com/halimahexe)
 - Frontend Mentor - [@halimahexe](https://www.frontendmentor.io/profile/halimahexe)
+
+## Acknowledgements
+
+Thanks to [Kevin Powell](https://www.youtube.com/@KevinPowell) for his brilliant YouTube channel with CSS tips and tricks. I decided to try out custom CSS properties because of you!
