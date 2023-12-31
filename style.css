@@ -15,7 +15,9 @@
     --clr-neutral-900: hsl(218, 44%, 22%);
 }
 
-* {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -28,8 +30,8 @@ body {
     font-size: var(--fs-400);
     background-color: var(--clr-neutral-300);
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 
 .card {
@@ -67,7 +69,6 @@ p {
 .attribution {
     font-size: var(--fs-200);
     text-align: center;
-    width: 100%;
     margin-top: 1.5rem;
 }
 
