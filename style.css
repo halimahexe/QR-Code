@@ -25,11 +25,15 @@
 
 body {
     height: 100%;
-    width: 100%;
     font-family: var(--ff-sans);
     font-size: var(--fs-400);
     background-color: var(--clr-neutral-300);
+}
+
+.container {
+    height: 100vh;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
@@ -69,7 +73,7 @@ p {
 .attribution {
     font-size: var(--fs-200);
     text-align: center;
-    margin-top: 1.5rem;
+    width: 100%;
 }
 
 .attribution a {
